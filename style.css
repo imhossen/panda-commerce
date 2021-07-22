@@ -1,0 +1,43 @@
+:root{
+    --background-color: #FEEAE9;
+    --price-text-color: #FF136F;
+    --button-background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+
+.carousel-item{
+    background-color: var(--background-color);
+}
+.pricing__text{
+    color: var(--price-text-color);
+}
+.button{
+    background: var(--button-background);
+    color: white;
+    padding: 7px 25px;
+    border: none;
+}
+.watch__cat{
+    background-color: #FFA500;
+}
+.bag__cat{
+    background-color: #DA70D6;
+}
+.shoes__cat{
+    background-color: #0000FF;
+}
+.watch__cat, .bag__cat, .shoes__cat{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.image__width{
+    width: 100px;
+}
+.subscribe{
+    background-color: var(--background-color);
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 100px 20px;
+}
+.container{
+    margin-bottom: 50px;
+}
